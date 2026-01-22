@@ -8,7 +8,7 @@ class Transition:
         self.ty = ty 
         self.color = color
         self.size = 10
-        self.speed = 0.1 
+        self.speed = 0.5
     
     def draw(self, screen):
         pygame.draw.rect(screen, self.color, (int(self.x), int(self.y), self.size, self.size))

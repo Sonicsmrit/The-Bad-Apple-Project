@@ -8,7 +8,7 @@ pixels_frame = []
 pixels_user = []
 
 #users image data
-with img.open("Test/makima.jpg") as user_img:
+with img.open("Test/★.jpg") as user_img:
     width, height = user_img.size
     gray_user_img = user_img.convert("L")
     for x in range(width):
